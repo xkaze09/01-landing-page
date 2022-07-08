@@ -5,48 +5,71 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.header {
+.main {
     background: #1F2937;
+    height: 500px;
+}
+
+.navbar {
+    padding: 8px 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 64px;
 }
-
-.navbar ul {
-    list-style-type: none;
-    margin: 0 240px;
-    display: flex;
-    gap: 24px;
-    font-size: 18px;
-}
-
-a {
-    text-decoration: none;
-    color: #E5E7EB;
-}
-
-.header-logo {
-    margin: 0 240px;
-    color: #F9FAF8;
+.logo {
     font-size: 24px;
+    color: #F9FAF8;
     font-weight: 700;
 }
 
-/* Hero */
-
-.hero {
+ul {
+    list-style-type: none;
     display: flex;
-    height: 640px;
-    background: #1F2937;
+    gap: 24px;
 }
 
-.hero-main-text {
+.links a {
+    text-decoration: none;
+    color: #F9FAF8;    
+}
+/* HERO */
+.hero {
+    padding: 0px 300px;
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 550px;
+}
+
+.main-text {
     color: #F9FAF8;
     font-size: 48px;
+    font-weight: 700;
 }
 
-.hero-secondary-text, .hero-image {
-    color: #E5E7EB;
+.secondary-text {
     font-size: 18px;
+    color: #E5E7EB;
+}
+.sign-up {
+    color: white;;
+    background: #3882F6;
+    border-radius: 8px;
+    padding: 8px 30px;
+    border: none;
+    font-weight: 700;
+    margin-top: 12px;
+}
+.hero-image {
+    background: #E5E7EB;
+    color: black;
+    width: 550px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
