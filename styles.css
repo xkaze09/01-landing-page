@@ -93,6 +93,7 @@ ul {
 
 .cards {
     display: flex;
+    justify-content: center;
 }
 
 .image {
@@ -100,4 +101,9 @@ ul {
     height: 120px;
     border: 2px solid #3882F6;
     border-radius: 10%;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
