@@ -95,3 +95,9 @@ ul {
     display: flex;
 }
 
+.image {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #3882F6;
+    border-radius: 10%;
+}
