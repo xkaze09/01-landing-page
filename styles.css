@@ -110,3 +110,28 @@ ul {
     align-items: center;
     width: 150px;
 }
+
+/* START OF QUOTE SECTION */
+
+.quote {
+    background: #E5E7EB;
+    height: 450px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    width: 800px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
