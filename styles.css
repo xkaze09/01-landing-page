@@ -111,7 +111,7 @@ ul {
     width: 150px;
 }
 
-/* START OF QUOTE SECTION */
+/* QUOTE SECTION */
 
 .quote {
     background: #E5E7EB;
@@ -134,4 +134,21 @@ ul {
     text-align: right;
     font-size: 24px;
     font-weight: bold;
+}
+
+/* CALL TO ACTION */
+
+.call-to-action-container {
+    background: white;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background: #3882F6;
+    height: 150px;
+    width: 70%;
+    border-radius: 10px;
 }
