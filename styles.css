@@ -149,6 +149,20 @@ ul {
 .call-to-action {
     background: #3882F6;
     height: 150px;
-    width: 70%;
+    width: 60%;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.cta-subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
 }
