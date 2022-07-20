@@ -175,3 +175,13 @@ ul {
     padding: 8px 32px;
     font-weight: bold;
 }
+
+/* FOOTER */
+.footer {
+    display: flex;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background: #1F2937;
+}
